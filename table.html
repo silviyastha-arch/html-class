@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table and Nested table</title>
+</head>
+<body>
+    Table Example:
+    <table border="1" bordercolor="green">
+        <tr>
+            <th>S.N.</th>
+            <th>Student Name</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Ram</td>
+            <td>Chitwan</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Sita</td>
+            <td>Janakpur</td>
+        </tr>
+    </table>
+
+    <h2>Nested Table</h2>
+    <table border="1" bordercolor="red">
+        <tr>
+            <td>Table 1</td>
+            <td>Table 1
+                <table border="1" bordercolor="black">
+                <tr>
+                    <td>Table 2</td>
+                    <td>Table 2</td>
+                </tr>
+                <tr>
+                    <td>Table 2</td>
+                    <td>Table 2</td>
+                    </tr>
+                </table>
+        <tr>
+            <td>Table 1</td>
+            <td>Table 1</td>
+        </tr>
+    </table>
+
+    <h2>Row Span and Col Span</h2>
+    <table border="1">
+        <tr>
+            <th colspan="2">Class Routine</th>
+        </tr>
+        <tr>
+            <th>Day</th>
+            <th>Subject</th>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>Statistics</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td rowspan="2">Microprocessor</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+        </tr>
+    </table>
+
+</body>
+</html>
